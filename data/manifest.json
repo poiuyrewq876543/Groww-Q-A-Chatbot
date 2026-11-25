@@ -1,0 +1,211 @@
+[
+  {
+    "doc_id": "gen-tax-reckoner",
+    "scheme": "general",
+    "plan": "both",
+    "doc_type": "Tax guide",
+    "title": "HDFC Mutual Fund: Tax Reckoner TY 2026-27",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/2026-08/Tax%20Reckoner%20TY%202026-27.pdf?VersionId=knKC9CYagdKAY6q7ADSH0X_owipYDOdE",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "gen-investor-faqs",
+    "scheme": "general",
+    "plan": "both",
+    "doc_type": "FAQ page",
+    "title": "HDFC Mutual Fund: Investor FAQs",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/services/faqs",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "gen-cas-statement",
+    "scheme": "general",
+    "plan": "both",
+    "doc_type": "Statement help page",
+    "title": "HDFC Mutual Fund: Consolidated Account Statement request",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/services/consolidated-account-statement",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "flexi-page-direct",
+    "scheme": "flexi-cap",
+    "plan": "direct",
+    "doc_type": "Fund page",
+    "title": "HDFC Flexi Cap Fund: Fund page, Direct plan",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "flexi-page-regular",
+    "scheme": "flexi-cap",
+    "plan": "regular",
+    "doc_type": "Fund page",
+    "title": "HDFC Flexi Cap Fund: Fund page, Regular plan",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/regular",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "flexi-scheme-summary",
+    "scheme": "flexi-cap",
+    "plan": "both",
+    "doc_type": "Scheme summary",
+    "title": "HDFC Flexi Cap Fund: Scheme Summary Document",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/scheme_summary/2026-08/HDFCEQ_1786689286.pdf",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "flexi-kim",
+    "scheme": "flexi-cap",
+    "plan": "both",
+    "doc_type": "KIM",
+    "title": "HDFC Flexi Cap Fund: KIM dated 25 Nov 2026",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/KIM/2026-11/KIM_HDFC%20Flexi%20Cap%20Fund%20dated%20November%2025%2C%202026.pdf?VersionId=tjmKdGZZIskSEJxn6zxnjeAxeV0rUcON",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "flexi-sid",
+    "scheme": "flexi-cap",
+    "plan": "both",
+    "doc_type": "SID",
+    "title": "HDFC Flexi Cap Fund: SID dated 25 Nov 2026",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/SID/2026-11/SID_HDFC%20Flexi%20Cap%20Fund%20dated%20November%2025%2C%202026.pdf?VersionId=qwurolAG3DnWqNtjuiaM1m0xFZ8qYyN3",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "flexi-fund-facts",
+    "scheme": "flexi-cap",
+    "plan": "both",
+    "doc_type": "Fund Facts",
+    "title": "HDFC Flexi Cap Fund: Fund Facts, latest",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-10/Fund%20Facts%20-%20HDFC%20Flexi%20Cap%20Fund.pdf?VersionId=vxly7C5RzgYAL.4lvaWSaNK0BmRFw6JJ",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "mid-page-direct",
+    "scheme": "mid-cap",
+    "plan": "direct",
+    "doc_type": "Fund page",
+    "title": "HDFC Mid Cap Fund: Fund page, Direct plan",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "mid-page-regular",
+    "scheme": "mid-cap",
+    "plan": "regular",
+    "doc_type": "Fund page",
+    "title": "HDFC Mid Cap Fund: Fund page, Regular plan",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/regular",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "mid-kim",
+    "scheme": "mid-cap",
+    "plan": "both",
+    "doc_type": "KIM",
+    "title": "HDFC Mid Cap Fund: KIM dated 21 Nov 2025",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Mid%20Cap%20Fund%20dated%20November%2021%2C%202025_1.pdf?VersionId=lvZLv6TD_uI7sOzea0XCJmAfPcbIHPlw",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "mid-sid",
+    "scheme": "mid-cap",
+    "plan": "both",
+    "doc_type": "SID",
+    "title": "HDFC Mid Cap Fund: SID dated 21 Nov 2025",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Mid%20Cap%20Fund%20dated%20November%2021,%202025_1.pdf",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "mid-fund-facts",
+    "scheme": "mid-cap",
+    "plan": "both",
+    "doc_type": "Fund Facts",
+    "title": "HDFC Mid Cap Fund: Fund Facts, latest",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-10/Fund%20Facts%20-%20HDFC%20Mid%20Cap%20Fund.pdf?VersionId=Va3tXBLWjCD1QP3jFWDf_vjJLxJBLSM8",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "baf-page-direct",
+    "scheme": "balanced-advantage",
+    "plan": "direct",
+    "doc_type": "Fund page",
+    "title": "HDFC Balanced Advantage Fund: Fund page, Direct plan",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "baf-page-regular",
+    "scheme": "balanced-advantage",
+    "plan": "regular",
+    "doc_type": "Fund page",
+    "title": "HDFC Balanced Advantage Fund: Fund page, Regular plan",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/regular",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "baf-kim",
+    "scheme": "balanced-advantage",
+    "plan": "both",
+    "doc_type": "KIM",
+    "title": "HDFC Balanced Advantage Fund: KIM dated 9 Nov 2026",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/KIM/2026-11/KIM%20-%20HDFC%20Balanced%20Advantage%20Fund%20dated%20November%2009%2C%202026.pdf?VersionId=Yz8lz0_R_QJ4Ym_DtoHQd6bRlvc34wXb",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "baf-sid",
+    "scheme": "balanced-advantage",
+    "plan": "both",
+    "doc_type": "SID",
+    "title": "HDFC Balanced Advantage Fund: SID dated 9 Nov 2026",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/SID/2026-11/SID%20-%20HDFC%20Balanced%20Advantage%20Fund%20dated%20November%2009%2C%202026.pdf?VersionId=m.ee4s6G0SO9byQvcoByA1Wz3Ep5S9Ux",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  },
+  {
+    "doc_id": "baf-fund-facts",
+    "scheme": "balanced-advantage",
+    "plan": "both",
+    "doc_type": "Fund Facts",
+    "title": "HDFC Balanced Advantage Fund: Fund Facts, latest",
+    "publisher": "HDFC Mutual Fund",
+    "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-10/Fund%20Facts%20-%20HDFC%20Balanced%20Advantage%20Fund.pdf?VersionId=FeecST3XMA2zF1TFrUA89uSF1rY._uDW",
+    "collected_on": "2026-11-25",
+    "fetch_ok": true
+  }
+]

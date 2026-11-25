@@ -1,0 +1,30 @@
+{
+  "collected_on": "2026-11-25",
+  "embed_model": "gemini-embedding-001",
+  "docs": [
+    {
+      "doc_id": "gen-investor-faqs",
+      "url": "https://www.hdfcfund.com/services/faqs",
+      "ok": true,
+      "lines": 39,
+      "pieces": 2,
+      "raw_file": "data/raw/gen-investor-faqs.html"
+    },
+    {
+      "doc_id": "gen-cas-statement",
+      "url": "https://www.hdfcfund.com/services/consolidated-account-statement",
+      "ok": true,
+      "lines": 15,
+      "pieces": 4,
+      "raw_file": "data/raw/gen-cas-statement.html"
+    },
+    {
+      "doc_id": "flexi-page-direct",
+      "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct",
+      "ok": true,
+      "lines": 34,
+      "pieces": 9,
+      "raw_file": "data/raw/flexi-page-direct.html"
+    }
+  ]
+}

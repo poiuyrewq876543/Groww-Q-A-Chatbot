@@ -1,0 +1,34 @@
+[
+ {
+  "doc_id": "gen-cas-statement",
+  "scheme": "general",
+  "plan": "both",
+  "doc_type": "Statement help page",
+  "section": "1. What is an Account Statement (AS)?",
+  "content": "Scheme: General (all HDFC Mutual Fund schemes) | Plan: Direct and Regular | Document: HDFC Mutual Fund: Consolidated Account Statement request | Section: 1. What is an Account Statement (AS)?\nAn Account Statement (AS) is a consolidated document that provides a detailed summary of all mutual fund transactions carried out by an investor. It includes information such as purchases, redemptions, switches, dividends, and the units allotted in the folio."
+ },
+ {
+  "doc_id": "gen-cas-statement",
+  "scheme": "general",
+  "plan": "both",
+  "doc_type": "Statement help page",
+  "section": "2. When can I download the Account Statement?",
+  "content": "Scheme: General (all HDFC Mutual Fund schemes) | Plan: Direct and Regular | Document: HDFC Mutual Fund: Consolidated Account Statement request | Section: 2. When can I download the Account Statement?\nYou can download the AS as soon as you begin investing with us.An Account Statement is generated each time a transaction is processed and units are allotted in the investor’s folio."
+ },
+ {
+  "doc_id": "gen-cas-statement",
+  "scheme": "general",
+  "plan": "both",
+  "doc_type": "Statement help page",
+  "section": "3. Is there a charge or fee for receiving the Account Statement?",
+  "content": "Scheme: General (all HDFC Mutual Fund schemes) | Plan: Direct and Regular | Document: HDFC Mutual Fund: Consolidated Account Statement request | Section: 3. Is there a charge or fee for receiving the Account Statement?\nNo. There is no charge or fee for receiving or downloading your Account Statement."
+ },
+ {
+  "doc_id": "gen-cas-statement",
+  "scheme": "general",
+  "plan": "both",
+  "doc_type": "Statement help page",
+  "section": "4. What types of statements can be downloaded through the AS feature?",
+  "content": "Scheme: General (all HDFC Mutual Fund schemes) | Plan: Direct and Regular | Document: HDFC Mutual Fund: Consolidated Account Statement request | Section: 4. What types of statements can be downloaded through the AS feature?\nYou can download the following types of statements:\nPAN-based Account Statement: Consolidated view of all folios linked to the PAN.Folio-based Account Statement: Statement specific to a single folio."
+ }
+]

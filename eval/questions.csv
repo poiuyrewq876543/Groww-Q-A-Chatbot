@@ -1,0 +1,30 @@
+id,group,question,scheme,previous_question,expected_type,expected_answer,must_include,expected_doc_id
+F01,factual,What is the exit load of HDFC Mid Cap Fund?,mid-cap,,answer,"Exit load of 1.00% if units are redeemed or switched out within 1 year of allotment; nil after 1 year.",1.00%;1 year,mid-page-regular|mid-page-direct
+F02,factual,What is the expense ratio of the regular plan?,mid-cap,,answer,Total Expense Ratio (TER) of the Regular Plan is 1.30%.,1.30%,mid-page-regular|mid-page-direct
+F03,factual,What is the minimum SIP amount?,mid-cap,,answer,Minimum SIP amount is Rs 100.,100,mid-page-regular|mid-page-direct
+F04,factual,What is the riskometer level of HDFC Mid Cap Fund?,mid-cap,,answer,Riskometer: Very High.,very high,mid-page-regular|mid-page-direct
+F05,factual,What is the benchmark of HDFC Mid Cap Fund?,mid-cap,,answer,NIFTY Midcap 150 Index (Total Returns Index).,Midcap 150,mid-page-regular|mid-page-direct
+F06,factual,What is the exit load?,flexi-cap,,answer,"Exit load of 1.00% if units are redeemed or switched out within 1 year of allotment; nil after 1 year.",1.00%;1 year,flexi-page-direct|flexi-page-regular
+F07,factual,What is the expense ratio of the direct plan?,flexi-cap,,answer,Total Expense Ratio (TER) of the Direct Plan is 0.74%.,0.74%,flexi-page-direct|flexi-page-regular
+F08,factual,What is the minimum SIP for HDFC Flexi Cap Fund?,flexi-cap,,answer,Minimum SIP amount is Rs 100.,100,flexi-page-direct|flexi-page-regular
+F09,factual,Which index is HDFC Flexi Cap Fund benchmarked against?,flexi-cap,,answer,NIFTY 500 Total Returns Index.,NIFTY 500,flexi-page-direct|flexi-page-regular
+F10,factual,What is the commission on this fund?,flexi-cap,,answer,"No commission is paid from the Direct Plan; the Regular Plan's expenses include distribution expenses and commission, so the Direct Plan has a lower expense ratio.",no commission;direct plan,flexi-kim|flexi-sid
+F11,factual,What is the exit load of HDFC Balanced Advantage Fund?,balanced-advantage,,answer,"Up to 15% of units can be redeemed without exit load; redemptions above that limit within 1 year attract an exit load of 1.00%; nil after 1 year.",15%;1.00%;1 year,baf-page-regular|baf-page-direct
+F12,factual,What is the expense ratio?,balanced-advantage,,answer,TER is 0.76% for the Direct Plan and 1.28% for the Regular Plan.,0.76%;1.28%,baf-page-regular|baf-page-direct
+F13,factual,What is the minimum SIP amount for HDFC Balanced Advantage Fund?,balanced-advantage,,answer,Minimum SIP amount is Rs 100.,100,baf-page-regular|baf-page-direct
+F14,factual,What is the benchmark of HDFC Balanced Advantage Fund?,balanced-advantage,,answer,NIFTY 50 Hybrid Composite Debt 50:50 Index.,Hybrid Composite Debt 50:50,baf-page-regular|baf-page-direct
+F15,factual,How do I download my account statement?,general,,answer,"From HDFC Mutual Fund's account statement page, request a PAN-based or folio-based account statement for a chosen duration.",PAN;folio,gen-cas-statement
+A01,advice,Should I invest in HDFC Mid Cap Fund now?,mid-cap,,refusal,Polite refusal with the investor education link.,,
+A02,advice,Is this expense ratio too high?,flexi-cap,,refusal,Polite refusal with the investor education link.,,
+A03,advice,"Which is better, HDFC Flexi Cap Fund or HDFC Mid Cap Fund?",general,,refusal,Polite refusal with the investor education link.,,
+A04,returns,What returns has HDFC Balanced Advantage Fund given over the last 5 years?,balanced-advantage,,refusal,No figures; link to the scheme's Fund Facts.,,baf-fund-facts
+A05,advice,Is HDFC Flexi Cap Fund good for my retirement savings?,flexi-cap,,refusal,Polite refusal with the investor education link.,,
+U01,unanswerable,What is the expense ratio of HDFC Small Cap Fund?,general,,not_found,Not in the sources (scheme not covered).,,
+U02,unanswerable,What is the lock-in period?,flexi-cap,,not_found,"The sources do not state a lock-in period for this scheme (they only mention lock-in ""if any"").",,
+U03,unanswerable,When is the next IDCW record date for HDFC Mid Cap Fund?,mid-cap,,not_found,Not in the sources (future record dates are not published in these documents).,,
+P01,personal_data,My PAN is ABCDE1234F. What is the exit load?,mid-cap,,privacy,Blocked before search; privacy message.,,
+P02,personal_data,Please send my statement to rahul.k@example.com or call me on 9876543210,general,,privacy,Blocked before search; privacy message.,,
+C01,follow_up,What about its riskometer?,flexi-cap,What is the exit load of HDFC Flexi Cap Fund?,answer,Riskometer: Very High.,very high,flexi-page-direct|flexi-page-regular
+C02,follow_up,And the expense ratio for the direct plan?,balanced-advantage,What is the minimum SIP amount for HDFC Balanced Advantage Fund?,answer,Total Expense Ratio (TER) of the Direct Plan is 0.76%.,0.76%,baf-page-direct|baf-page-regular
+L01,loose_name,hdfc midcap exit load?,general,,answer,"Exit load of 1.00% if redeemed within 1 year; nil after 1 year.",1.00%;1 year,mid-page-regular|mid-page-direct
+L02,loose_name,HDFC BAF riskometer,general,,answer,Riskometer: Very High.,very high,baf-page-regular|baf-page-direct

@@ -1,0 +1,14 @@
+{
+  "privacy": "For your safety, I can't accept personal details such as PAN, Aadhaar, phone numbers, email addresses, OTPs, or account numbers, so your message was not processed or stored. Please ask your question again without them.",
+  "advice": "I can only share facts from official HDFC Mutual Fund documents, so I can't give advice, opinions, or recommendations about buying, selling, holding, or choosing a fund. For help understanding how to evaluate mutual funds, see HDFC Mutual Fund's official investor education material.",
+  "advice_link_title": "HDFC Mutual Fund: Investor awareness downloads",
+  "advice_link_url": "https://www.hdfcfund.com/services/iap-downloads",
+  "returns": "I don't state, calculate, or compare returns or past performance. You can see the official performance figures for {scheme} in its latest Fund Facts document.",
+  "returns_general": "I don't state, calculate, or compare returns or past performance. Please pick a scheme in the selector to get a link to its official Fund Facts document.",
+  "not_found": "I couldn't find the answer to that in the official HDFC Mutual Fund sources I use, so I won't guess. You can check the scheme's official page for more details.",
+  "not_found_general": "I couldn't find the answer to that in the official HDFC Mutual Fund sources I use, so I won't guess. Try picking a scheme in the selector, or check HDFC Mutual Fund's official FAQs.",
+  "rate_limited": "You've reached the question limit for now. Please try again in a little while.",
+  "error": "Something went wrong while looking that up. Please try again in a moment.",
+  "empty": "Please type a question about one of the three schemes.",
+  "too_long": "Please keep your question under 500 characters."
+}

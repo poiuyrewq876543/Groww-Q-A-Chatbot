@@ -1,0 +1,130 @@
+Page 1
+Fields | SCHEME SUMMARY DOCUMENT
+1 | Fund Name | HDFC Flexi Cap Fund
+Plans:Regular and Direct. Each Plan offers the following sub-options: a)Growth Option. b)Income Distribution cum Capital
+2 | Option Names (Regular & Direct) | Withdrawal (IDCW) Option. This Option offers following Sub-Options / facilities: • Payout of Income Distribution cum Capital
+Withdrawal (IDCW) Option / facility and • Re-investment of Income Distribution cum Capital Withdrawal (IDCW) Option / facility.
+3 | Fund Type | An open ended dynamic equity scheme investing across Large Cap, Mid Cap, Small Cap Stocks
+Riskometer (At the time of
+4 | Not Available
+Launch)
+5 | Riskometer (as on Date) | Very High Risk
+Category as Per SEBI
+6 | Flexi Cap Fund
+Categorization Circular
+7 | Potential Risk Class (as on date) | Not applicable
+Description, Objective of the | To generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments. There
+8
+scheme | is no assurance that the investment objective of the Scheme will be achieved.
+Equity and Equity Related Instruments: 65% - 100% Debt Securities and money market instruments and Fixed Income Derivatives:
+9 | Stated Asset Allocation | 0% -35% Units issued by InvITs: 0% - 10% Non-convertible preference shares: 0% - 10% Unit of Mutual Fund: 0% - 20% For
+detailed asset allocation, refer Scheme Information Document (SID) available on the website.
+10 | Face Value | Rs. 10.
+11 | NFO Open Date | December 8, 1994
+12 | NFO Close date | December 24, 1994
+13 | Allotment Date | January 1, 1995
+14 | Reopen Date | Not Available
+Maturity Date (For closed-end
+15 | Not applicable
+funds)
+16 | Benchmark (Tier 1) | NIFTY 500 Index (Total Returns Index)
+17 | Benchmark (Tier 2) | Not applicable
+18 | Fund Manager Name | FM 1 - Mr. Amit Ganatra , FM 2 - Mr. Dhruv Muchhal
+Fund Manager Type
+19 | FM 1 - Fund Manager of the Scheme, FM 2 - Dedicated Fund Manager for Overseas Investments
+(Primary/Comanage/Description)
+20 | Fund Manager From Date | FM 1 - Managing Since February 01, 2026 , FM 2 - Managing Since June 22, 2023
+Annual Expense (Stated
+21 | Regular 1.37, Direct 0.74
+maximum)
+In respect of each purchase/switch-in of units, an Exit Load of 1.00% is payable if Units are edeemed/switched-out within 1 year
+22 | Exit Load (if applicable)
+from the date of allotment. No Exit Load is payable if Units are redeemed/ switched-out after 1 year from the date of allotment.
+23 | Custodian | Citibank N.A
+24 | Auditor | S.R. Batliboi & Co. LLP – Chartered Accountants
+25 | Registrar | Computer Age Management Services Limited
+26 | RTA Code (To be phased out) | HDFCEQ
+27 | Listing Details | Not applicable
+HDFC FLEXI CAP FUND - DIRECT PLAN - DIVIDEND REINVESTMENT OPTION- INF179K01VM3 HDFC FLEXI CAP FUND - DIRECT PLAN
+- DIVIDEND PAYOUT OPTION-INF179K01VL5 HDFC FLEXI CAP FUND - DIRECT PLAN - GROWTH OPTION- INF179K01UT0 HDFC FLEXI
+28 | ISINs
+CAP FUND - DIVIDEND PAYOUT OPTION- INF179K01582 HDFC FLEXI CAP FUND - DIVIDEND REINVESTMENT OPTION-
+INF179K01590 HDFC FLEXI CAP FUND - GROWTH OPTION - INF179K01608
+101763 -HDFC Flexi Cap Fund - IDCW Plan 118954 -HDFC Flexi Cap Fund - IDCW Option - Direct Plan 101762 -HDFC Flexi Cap Fund
+29 | AMFI Codes (To be phased out)
+- Growth Plan 118955 -HDFC Flexi Cap Fund - Growth Option - Direct Plan
+30 | SEBI Codes | HDFC/O/E/FCF/94/12/0002
+31 | Minimum Application Amount | Rs.100
+Minimum Application Amount in
+32 | Any amount
+multiples of Rs.
+33 | Minimum Additional Amount | Rs.100
+Minimum Additional Amount in
+34 | Any amount
+multiples of Rs.
+Minimum Redemption Amount in
+35 | Rs.100 and and multiples of Rs.1 thereafter
+Rs.
+Minimum Redemption Amount in
+36 | No minimum redemption criterion for Unit based redemption
+Units
+Minimum Balance Amount (if
+37 | There is no minimum balance amount requirement.
+applicable)
+Minimum Balance Amount in
+38 | There is no minimum balance amount in units requirement.
+Units (if applicable)
+39 | Max Investment Amount | Not Applicable
+Minimum Switch Amount (if
+40 | Switch - in: Rs.100 and any amount thereafter. Additional Amount:. Rs. 100 Switch-out :Rs. 100 and multiples of Rs. 1/- thereafter
+applicable)
+41 | Minimum Switch Units | Not applicable
+Switch Multiple Amount (if
+42 | Any amount
+applicable)
+Switch Multiple Units (if
+43 | N.A
+applicable)
+44 | Max Switch Amount | Switch in: Not Applicable Switch out: Not applicable.
+45 | Max Switch Units (if applicable) | Switch in: Not Applicable. Switch out: Not applicable.
+46 | Swing Pricing (if applicable) | Not applicable
+47 | Side-pocketing (if applicable) | Not Applicable.
+For Systematic Investmet Plan (SIP) Daily, Weekly, Monthly, Quarterly, Half Yearly and Yearly For Systematic Withdrawal Advantage
+Plan (SWAP) Fixed SWAP - Monthly, Quarterly, Half Yearly, Yearly Variable SWAP - Quarterly, Half Yearly, Yearly For Sytematic
+48 | SIP SWP & STP Details: Frequency
+Transfer Plan (STP) Fixed Systematic Transfer Plan (FSTP) - Daily, Weekly, Monthly, Quarterly Capital Appreciation Systematic
+Transfer Plan (CASTP) - Monthly, Quarterly
+For SIP DSIP, WSIP, MSIP - Rs. 100; QSIP - Rs. 1500; HSIP - Rs. 2500; YSIP - Rs. 5000. For SWAP Fixed SWAP - Rs. 100; Variable SWAP
+SIP SWP & STP Details: Minimum
+49 | - Rs. 300. For STP Fixed STP (FSTP) Daily FSTP - Rs. 500; Weekly FSTP - Rs. 500; Monthly FSTP - Rs. 1000; Quarterly FSTP -Rs. 3000.
+amount
+Capital Appreciation STP (CASTP) Monthly CASTP - Rs. 300; Quarterly CASTP - Rs 1000.
+SIP SWP & STP Details: In multiple For SIP and SWAP Re. 1/- thereafter; For STP FSTP Daily, Monthly, Quarterly FSTP - Rs. 100 thereafter Weekly FSTP - any amount
+50
+of | thereafter CASTP Mulitples will be based on the appreciated amount
+
+Fields | SCHEME SUMMARY DOCUMENT | Page 2
+SIP: Minimum number of installments under DSIP- 2 Minimum number of Installments under WSIP and MSIP : - In respect of each
+SIP Installment between Rs.300 to Rs.499 in value - 20 - In respect of each SIP Installment between Rs.500 to Rs.999 in value - 12.
+In respect of each SIP Installment equal to or greater than Rs 1,000 in value - 6 Minimum number of installments under QSIP : - In
+respect of each SIP Installment between Rs.1,500 to Rs.2,999 in value- 4; In respect of each SIP Installment equal to or greater
+than Rs. 3,000 in value- 2 Minimum number of installments under HYSIP: - In respect of each SIP Installment equal to or greater
+than Rs. 2,500 in value- 2 Minimum number of installments under YSIP: - In respect of each SIP Installment equal to or greater
+SIP SWP & STP Details: Minimum
+51 | than Rs. 5,000 in value- 1 SWP: For Fixed and Variable SWP- 2 STP: Under Daily FSTP: -where installment amount is less than Rs.
+Instalments
+1,000 : 12 - where installment amount is equal to or greater than Rs. 1,000: 6 Under Weekly STP : - Where installment amount is
+less than Rs. 1,000: 12 installments - Where installment amount is equal to or greater than Rs. 1,000: 6 installments However, for
+weekly STP in equity linked savings schemes, there should be a minimum of 6 installments for enrollment. Under Monthly FSTP &
+Monthly CASTP : - Minimum 6 installments, Under Quarterly FSTP & Quarterly CASTP : - Minimum 2 installments. Further, the
+minimum balance in the Unit holders account or the minimum amount of application at the time of enrolment for STP in the
+Transferor Scheme should be Rs. 12,000. There will be no maximum duration for STP enrolment.
+SIP: For Daily SIP- All Business Days For Weekly SIP- Any business day between Monday to Friday, (Default date is Wednesday) For
+all other frequnecies - Any date fo the month. If it happens to be a non-Business Day, SIP will be processed on the next Business
+52 | SIP SWP & STP Details: Dates | Day (Default date = 10th of the month) SWP: For Fixed and Variable SWP- Any date. Default Date: 25th STP For Daily FSTP- All
+Business days For Weekly FSTP-Monday,Tuesday,Wednesday,Thursday,Friday (Default Day) For Monthly FSTP and CASTP -
+1,5,10#,15,20,25 For Quarterly FSTP and CASTP - 1,5,10#,15,20,25 #Default Date
+SIP SWP & STP Details: Maximum
+53 | Not Applicable
+Amount (if any)
+
