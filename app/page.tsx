@@ -41,7 +41,11 @@ export default function Home() {
   const [prevQuestion, setPrevQuestion] = useState<string | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => endRef.current?.scrollIntoView({ behavior: "smooth" }), [msgs, busy]);
+  // Block body on purpose: newer browsers return a Promise from scrollIntoView,
+  // and React would try to call a returned value as the effect's cleanup.
+  useEffect(() => {
+    endRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [msgs, busy]);
 
   async function ask(text: string) {
     const message = text.trim();

@@ -22,6 +22,7 @@ export interface Piece {
 
 export const MIN_SIMILARITY = Number(process.env.MIN_SIMILARITY || 0.58);
 const TOP_K = 5;
+const KEYWORD_WEIGHT = Number(process.env.KEYWORD_WEIGHT || 0.1);
 
 const DOC_TYPE_BOOST: Record<string, number> = {
   "Fund page": 0.03,
@@ -53,7 +54,7 @@ export async function search(question: string, scheme: SchemeId, opts: { hybrid?
     const kw = await q<{ id: number }>(
       `select id from mf_chunks
         where scheme = any($2) and tsv @@ websearch_to_tsquery('english', $1)
-        order by ts_rank_cd(tsv, websearch_to_tsquery('english', $1)) desc
+        order by ts_rank_cd(tsv, websearch_to_tsquery('english', $1), 1) desc
         limit 30`,
       [keywordQuery(question), schemes],
     );
@@ -75,7 +76,8 @@ export async function search(question: string, scheme: SchemeId, opts: { hybrid?
   const scored: Piece[] = rows.map((r) => {
     let score = Number(r.similarity) + (DOC_TYPE_BOOST[r.doc_type] ?? 0);
     if (plan && r.plan !== "both" && r.plan !== plan) score -= 0.05;
-    if (hybrid && keywordRank.has(r.id)) score += 0.04 * (1 - keywordRank.get(r.id)! / 30);
+    // Reciprocal-rank style bonus: the best keyword matches get a clear lift, the tail almost none.
+    if (hybrid && keywordRank.has(r.id)) score += KEYWORD_WEIGHT / (1 + keywordRank.get(r.id)!);
     return { ...r, similarity: Number(r.similarity), score };
   });
   scored.sort((a, b) => b.score - a.score);
@@ -99,7 +101,10 @@ async function queryVector(question: string): Promise<string> {
 }
 
 // Keyword query: keep the content words, drop question filler.
-const STOP = new Set("what is the of for in a an on to does do how much and or this that it its fund hdfc scheme plan tell me about".split(" "));
+// Scheme names are dropped too: the scheme filter already applies them, and every piece label repeats them.
+const STOP = new Set(
+  "what is the of for in a an on to does do how much and or this that it its fund hdfc scheme plan tell me about flexi cap mid midcap balanced advantage baf".split(" "),
+);
 function keywordQuery(question: string): string {
   const words = question.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/).filter((w) => w && !STOP.has(w));
   return words.join(" or ");

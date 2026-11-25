@@ -20,7 +20,7 @@ Each entry records a decision, the options that were weighed, and why the chosen
 | App and API | One Next.js app on Vercel | One deploy, a live link for reviewers |
 | Document store | Neon Postgres with pgvector | Hosted, free tier, vector and keyword search in one database |
 | Embeddings | `gemini-embedding-2` at 768 dimensions | Low cost; the daily free quota for `gemini-embedding-001` was exhausted during the build, and `gemini-embedding-2` has its own quota |
-| Answers | `gemini-3.1-flash-lite` with JSON output, temperature 0 | Lowest-cost current Gemini model; the task is rephrasing short retrieved text |
+| Answers | `gemini-3.5-flash-lite` with JSON output, temperature 0; falls back to `gemini-3.1-flash-lite` | Low-cost model for rephrasing short retrieved text. `gemini-3.1-flash-lite` was the first choice but returned "high demand" errors on the free tier during the build |
 | Ingestion | A script run by hand, never a Vercel function | Reading large PDFs would time out a short-lived function |
 
 ## 4. Citations are attached by code

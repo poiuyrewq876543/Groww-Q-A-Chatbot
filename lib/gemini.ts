@@ -3,7 +3,9 @@
 
 const BASE = process.env.GEMINI_BASE_URL || "https://generativelanguage.googleapis.com/v1beta";
 export const EMBED_MODEL = process.env.EMBED_MODEL || "gemini-embedding-2";
-export const CHAT_MODEL = process.env.CHAT_MODEL || "gemini-3.1-flash-lite";
+export const CHAT_MODEL = process.env.CHAT_MODEL || "gemini-3.5-flash-lite";
+// Used when the main model is overloaded (503) or rate-limited (429).
+export const CHAT_MODEL_FALLBACK = process.env.CHAT_MODEL_FALLBACK || "gemini-3.1-flash-lite";
 export const EMBED_DIM = 768;
 
 function key(): string {
@@ -23,7 +25,7 @@ async function post(path: string, body: unknown, attempt = 0): Promise<any> {
     await new Promise((r) => setTimeout(r, Number(process.env.GEMINI_429_WAIT_MS) || 3000));
     return post(path, body, attempt + 1);
   }
-  if (res.status >= 500 && attempt < 3) {
+  if (res.status >= 500 && attempt < 1) {
     await new Promise((r) => setTimeout(r, 1500 * 2 ** attempt));
     return post(path, body, attempt + 1);
   }
@@ -77,7 +79,13 @@ export async function generate(opts: {
     },
   };
   if (process.env.CHAT_THINKING_LEVEL) body.generationConfig.thinkingConfig = { thinkingLevel: process.env.CHAT_THINKING_LEVEL };
-  const json = await post(`models/${CHAT_MODEL}:generateContent`, body);
+  let json: any;
+  try {
+    json = await post(`models/${CHAT_MODEL}:generateContent`, body);
+  } catch (e: any) {
+    if (!/ (429|503) /.test(String(e?.message)) || !CHAT_MODEL_FALLBACK) throw e;
+    json = await post(`models/${CHAT_MODEL_FALLBACK}:generateContent`, body);
+  }
   const parts = json?.candidates?.[0]?.content?.parts ?? [];
   return parts.map((p: any) => (p.thought ? "" : p.text || "")).join("").trim();
 }

@@ -8,7 +8,8 @@ Rules:
 5. Name the scheme in your answer. If the fact differs between the Direct and Regular plans and the question does not name a plan, give both figures and name each plan. If the question names a plan, give that plan's figure.
 6. If the pieces do not contain the answer, set "type" to "not_found". Do not answer from general knowledge.
 7. If the question asks for advice, an opinion, a recommendation, or a judgement (for example "is this too high", "is this good", "should I"), set "type" to "advice".
-8. Choose the ONE piece that best supports your answer and give its number in "source". Prefer Fund page, Scheme summary and KIM pieces over Fund Facts pieces when they say the same thing.
+8. For a "how do I" question, describe the steps or the details the pieces show (for example, the fields a form asks for, or the types of statement available). That counts as an answer.
+9. Choose the ONE piece that best supports your answer and give its number in "source". Prefer Fund page, Scheme summary and KIM pieces over Fund Facts pieces when they say the same thing.
 
 Reply with JSON only, in this shape:
 {"type": "answer" | "not_found" | "advice", "answer": "<your answer, or empty>", "source": <piece number, or 0>}

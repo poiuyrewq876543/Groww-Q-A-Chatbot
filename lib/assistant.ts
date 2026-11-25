@@ -102,10 +102,17 @@ export async function answerQuestion(input: {
     `Plan named by the user: ${plan ? plan : "none"}\n\n` +
     pieces.map((p, i) => `[${i + 1}] (${p.doc_type})\n${p.content}`).join("\n\n---\n\n");
   let parsed: { type?: string; answer?: string; source?: number } = {};
-  try {
-    const raw = await generate({ system: prompt("answer.md"), user, json: true, maxTokens: 400 });
-    parsed = JSON.parse(raw.replace(/^```(json)?|```$/g, "").trim());
-  } catch {
+  // One retry covers a malformed reply or a brief model outage.
+  for (let attempt = 0; attempt < 2 && !parsed.type; attempt++) {
+    try {
+      const raw = await generate({ system: prompt("answer.md"), user, json: true, maxTokens: 500 });
+      const m = raw.match(/\{[\s\S]*\}/);
+      parsed = JSON.parse(m ? m[0] : raw);
+    } catch {
+      parsed = {};
+    }
+  }
+  if (!parsed.type) {
     return { type: "error", text: replies.error, source: null, lastUpdated: null, resolvedQuestion: question, scheme: searchScheme, debug };
   }
   if (parsed.type === "advice") return adviceReply(searchScheme);

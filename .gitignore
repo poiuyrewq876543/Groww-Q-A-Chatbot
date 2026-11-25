@@ -1,9 +1,10 @@
-.env.local
-.env*
-node_modules/
-.next/
-.vercel/
-.dev/
 *.tsbuildinfo
-next-env.d.ts
+.dev/
+.env*
+.env.local
+.next/
+.vercel
+.vercel/
 data/raw/.download
+next-env.d.ts
+node_modules/

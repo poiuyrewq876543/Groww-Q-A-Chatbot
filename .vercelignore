@@ -1,0 +1,6 @@
+data/raw
+data/text
+.dev
+.env.local
+node_modules
+.next

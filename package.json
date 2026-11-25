@@ -9,7 +9,8 @@
     "ingest": "tsx scripts/ingest.ts",
     "eval:retrieval": "tsx scripts/eval-retrieval.ts",
     "eval": "tsx scripts/eval.ts",
-    "check:secrets": "node scripts/check-secrets.mjs"
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "demo": "tsx scripts/demo.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.2.1",
