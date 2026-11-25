@@ -1,7 +1,15 @@
 {
   "collected_on": "2026-11-25",
-  "embed_model": "gemini-embedding-001",
+  "embed_model": "gemini-embedding-2",
   "docs": [
+    {
+      "doc_id": "gen-tax-reckoner",
+      "url": "https://files.hdfcfund.com/s3fs-public/2026-08/Tax%20Reckoner%20TY%202026-27.pdf?VersionId=knKC9CYagdKAY6q7ADSH0X_owipYDOdE",
+      "ok": true,
+      "lines": 210,
+      "pieces": 9,
+      "raw_file": "data/raw/gen-tax-reckoner.pdf"
+    },
     {
       "doc_id": "gen-investor-faqs",
       "url": "https://www.hdfcfund.com/services/faqs",
@@ -22,9 +30,129 @@
       "doc_id": "flexi-page-direct",
       "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct",
       "ok": true,
-      "lines": 34,
-      "pieces": 9,
+      "lines": 31,
+      "pieces": 8,
       "raw_file": "data/raw/flexi-page-direct.html"
+    },
+    {
+      "doc_id": "flexi-page-regular",
+      "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/regular",
+      "ok": true,
+      "lines": 31,
+      "pieces": 8,
+      "raw_file": "data/raw/flexi-page-regular.html"
+    },
+    {
+      "doc_id": "flexi-scheme-summary",
+      "url": "https://files.hdfcfund.com/s3fs-public/scheme_summary/2026-08/HDFCEQ_1786689286.pdf",
+      "ok": true,
+      "lines": 131,
+      "pieces": 3,
+      "raw_file": "data/raw/flexi-scheme-summary.pdf"
+    },
+    {
+      "doc_id": "flexi-kim",
+      "url": "https://files.hdfcfund.com/s3fs-public/KIM/2026-11/KIM_HDFC%20Flexi%20Cap%20Fund%20dated%20November%2025%2C%202026.pdf?VersionId=tjmKdGZZIskSEJxn6zxnjeAxeV0rUcON",
+      "ok": true,
+      "lines": 1041,
+      "pieces": 34,
+      "raw_file": "data/raw/flexi-kim.pdf"
+    },
+    {
+      "doc_id": "flexi-sid",
+      "url": "https://files.hdfcfund.com/s3fs-public/SID/2026-11/SID_HDFC%20Flexi%20Cap%20Fund%20dated%20November%2025%2C%202026.pdf?VersionId=qwurolAG3DnWqNtjuiaM1m0xFZ8qYyN3",
+      "ok": true,
+      "lines": 3318,
+      "pieces": 148,
+      "raw_file": "data/raw/flexi-sid.pdf"
+    },
+    {
+      "doc_id": "flexi-fund-facts",
+      "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-10/Fund%20Facts%20-%20HDFC%20Flexi%20Cap%20Fund.pdf?VersionId=vxly7C5RzgYAL.4lvaWSaNK0BmRFw6JJ",
+      "ok": true,
+      "lines": 181,
+      "pieces": 5,
+      "raw_file": "data/raw/flexi-fund-facts.pdf"
+    },
+    {
+      "doc_id": "mid-page-direct",
+      "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+      "ok": true,
+      "lines": 31,
+      "pieces": 8,
+      "raw_file": "data/raw/mid-page-direct.html"
+    },
+    {
+      "doc_id": "mid-page-regular",
+      "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/regular",
+      "ok": true,
+      "lines": 31,
+      "pieces": 8,
+      "raw_file": "data/raw/mid-page-regular.html"
+    },
+    {
+      "doc_id": "mid-kim",
+      "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Mid%20Cap%20Fund%20dated%20November%2021%2C%202025_1.pdf?VersionId=lvZLv6TD_uI7sOzea0XCJmAfPcbIHPlw",
+      "ok": true,
+      "lines": 1221,
+      "pieces": 40,
+      "raw_file": "data/raw/mid-kim.pdf"
+    },
+    {
+      "doc_id": "mid-sid",
+      "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Mid%20Cap%20Fund%20dated%20November%2021,%202025_1.pdf",
+      "ok": true,
+      "lines": 3825,
+      "pieces": 165,
+      "raw_file": "data/raw/mid-sid.pdf"
+    },
+    {
+      "doc_id": "mid-fund-facts",
+      "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-10/Fund%20Facts%20-%20HDFC%20Mid%20Cap%20Fund.pdf?VersionId=Va3tXBLWjCD1QP3jFWDf_vjJLxJBLSM8",
+      "ok": true,
+      "lines": 173,
+      "pieces": 5,
+      "raw_file": "data/raw/mid-fund-facts.pdf"
+    },
+    {
+      "doc_id": "baf-page-direct",
+      "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/direct",
+      "ok": true,
+      "lines": 34,
+      "pieces": 8,
+      "raw_file": "data/raw/baf-page-direct.html"
+    },
+    {
+      "doc_id": "baf-page-regular",
+      "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-balanced-advantage-fund/regular",
+      "ok": true,
+      "lines": 34,
+      "pieces": 8,
+      "raw_file": "data/raw/baf-page-regular.html"
+    },
+    {
+      "doc_id": "baf-kim",
+      "url": "https://files.hdfcfund.com/s3fs-public/KIM/2026-11/KIM%20-%20HDFC%20Balanced%20Advantage%20Fund%20dated%20November%2009%2C%202026.pdf?VersionId=Yz8lz0_R_QJ4Ym_DtoHQd6bRlvc34wXb",
+      "ok": true,
+      "lines": 1234,
+      "pieces": 40,
+      "raw_file": "data/raw/baf-kim.pdf"
+    },
+    {
+      "doc_id": "baf-sid",
+      "url": "https://files.hdfcfund.com/s3fs-public/SID/2026-11/SID%20-%20HDFC%20Balanced%20Advantage%20Fund%20dated%20November%2009%2C%202026.pdf?VersionId=m.ee4s6G0SO9byQvcoByA1Wz3Ep5S9Ux",
+      "ok": true,
+      "lines": 4362,
+      "pieces": 218,
+      "raw_file": "data/raw/baf-sid.pdf"
+    },
+    {
+      "doc_id": "baf-fund-facts",
+      "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-10/Fund%20Facts%20-%20HDFC%20Balanced%20Advantage%20Fund.pdf?VersionId=FeecST3XMA2zF1TFrUA89uSF1rY._uDW",
+      "ok": true,
+      "lines": 181,
+      "pieces": 4,
+      "raw_file": "data/raw/baf-fund-facts.pdf"
     }
   ]
 }
