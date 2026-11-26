@@ -10,7 +10,7 @@ These lines are shown on the screen at all times and are repeated in the README.
 
 > Do not enter PAN, Aadhaar, phone, or account details.
 
-**Independence notice (page footer):**
+**Independence notice (README only; removed from the page footer on 26 Nov 2026 at the owner's request):**
 
 > Independent prototype. Not affiliated with Groww or HDFC Mutual Fund.
 

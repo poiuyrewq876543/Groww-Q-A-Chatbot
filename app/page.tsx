@@ -144,7 +144,6 @@ export default function Home() {
           />
           <button type="submit" disabled={busy || !input.trim()}>Ask</button>
         </form>
-        <p className="foot">Independent prototype. Not affiliated with Groww or HDFC Mutual Fund.</p>
       </div>
     </main>
   );
